@@ -29,16 +29,6 @@ const commonIconStyle = css`
 const ShareIconContainer = styled.div`
   display: flex-wrap;
   margin: 0.7rem 0rem;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  margin: 0.7rem 0rem;
-=======
-  margin: 0.7rem 2.5rem;
->>>>>>> 60e8420e413067433f00c96cf223efde0c2d86c1
->>>>>>> d58e2b0... Fixed share susi menu
-=======
->>>>>>> ef6df82... Fixed share susi menu
 `;
 
 const IconButton = styled(_IconButton)`
