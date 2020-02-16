@@ -372,7 +372,11 @@ class Preview extends Component {
 
   // Scroll to the bottom
   scrollToBottom = () => {
-    this.messageEndRef.current.scrollIntoView({ behavior: 'smooth' });
+    this.messageEndRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'start',
+    });
   };
 
   componentWillUnmount = () => {
